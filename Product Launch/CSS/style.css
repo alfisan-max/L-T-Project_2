@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  color: black;
+  padding: 0;
+  text-align: center;
+}
+
+nav{
+  padding-top: 4%;
+}
+
+nav a {
+  color: black;
+  font-size: 24px;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f4f4f4;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-left: 4px solid #007BFF;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.product-img {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: 1rem 0;
+}
